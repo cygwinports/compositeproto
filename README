@@ -1,6 +1,6 @@
 compositeproto
 ------------------------------------------
-Xorg Composite protocol headers
+X.Org Composite protocol headers
 
 Build requirements:
   cygwin-1.5.25-15
