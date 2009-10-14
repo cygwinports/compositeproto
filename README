@@ -1,49 +1,38 @@
 compositeproto
 ------------------------------------------
-X.Org Composite protocol headers
+X.Org Composite extension headers
 
 Build requirements:
-  cygwin-1.5.25-15
-  cygport-0.4.0-1
-  make-3.81-1
+  cygwin-1.7.0-62
+  cygport-0.9.10-1
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
   http://xorg.freedesktop.org/
 
 Canonical download:
-  http://xorg.freedesktop.org/releases/individual/
+  http://xorg.freedesktop.org/releases/individual/proto/
 
 -------------------------------------------
 
 Build instructions:
-  unpack compositeproto-0.4-X-src.tar.bz2
+  unpack compositeproto-0.4.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./compositeproto-0.4-X.cygport all
+  cygport ./compositeproto-0.4.1-X.cygport all
 
 This will create:
-  /usr/src/compositeproto-0.4-X-src.tar.bz2
-  /usr/src/compositeproto-0.4-X.tar.bz2
+  /usr/src/compositeproto-0.4.1-X-src.tar.bz2
+  /usr/src/compositeproto-0.4.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/include/X11/extensions/composite.h
-  /usr/include/X11/extensions/compositeproto.h
-  /usr/lib/pkgconfig/compositeproto.pc
-  /usr/share/doc/compositeproto-0.4/AUTHORS
-  /usr/share/doc/compositeproto-0.4/COPYING
-  /usr/share/doc/compositeproto-0.4/ChangeLog
-  /usr/share/doc/compositeproto-0.4/INSTALL
-  /usr/share/doc/compositeproto-0.4/README
-  /usr/share/doc/compositeproto/compositeproto.txt
-
-------------------
-
 Port Notes:
+
+----- version 0.4.1-1 -----
+Version bump for X11R7.5.
 
 ----- version 0.4-1 -----
 Version bump.
